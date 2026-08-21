@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beryl's Kitchen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <nav>
+           <div class="logo">
+                <img src="images/logo.png" alt="Beryl's Kitchen">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="images/download (2).jpg" alt="A beautifully prepared meal at Beryl's Kitchen">
+        <div class="hero-content">
+          <p class="eyebrow">Taste the warmth of home</p>
+          <h1>Good food.<br><span>Good moments.</span></h1>
+          <p class="hero-copy">Freshly made favorites, crafted with generous flavor and served with heart.</p>
+          <a href="menu.html" class="btn">Explore the menu <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Beryl's Kitchen</h2>
+                <p>Welcome to Beryl's Kitchen, where passion for authentic cuisine meets warm hospitality. We believe that great food is more than just ingredients—it's about creating memorable moments with those you love.</p>
+                <p>Our commitment is simple: to serve you the freshest, most flavorful dishes prepared with care and attention to detail. Every meal is crafted to bring you closer to the warmth of home.</p>
+                <a href="about.html" class="btn">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="about-image">
+                <img src="images/about-img.jpg" alt="Beryl's Kitchen restaurant">
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose" id="why-choose">
+        <div class="why-choose-container">
+            <div class="why-choose-image">
+                <img src="images/main_meals/Cameroonian Style Roasted Whole Fish.jpg" alt="Cameroonian roasted whole fish prepared at Beryl's Kitchen">
+            </div>
+            <div class="why-choose-content">
+                <p class="section-kicker">Made with intention</p>
+                <h2>Why choose us?</h2>
+                <p class="section-intro">A table at Beryl's Kitchen is a little taste of home: generous, thoughtful, and full of flavor.</p>
+                <div class="reasons">
+                    <article class="reason"><i class="fa-solid fa-seedling" aria-hidden="true"></i><div><h3>Fresh ingredients</h3><p>We choose quality ingredients and let their natural flavor lead the way.</p></div></article>
+                    <article class="reason"><i class="fa-solid fa-fire-burner" aria-hidden="true"></i><div><h3>Cooked with care</h3><p>Every plate is prepared to order, with the patience and detail it deserves.</p></div></article>
+                    <article class="reason"><i class="fa-solid fa-heart" aria-hidden="true"></i><div><h3>Warm hospitality</h3><p>From the first welcome to the last bite, you are always part of our table.</p></div></article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-heading">
+            <p class="section-kicker">From our guests</p>
+            <h2>Good food brings people back.</h2>
+        </div>
+        <div class="testimonial-grid">
+            <blockquote class="testimonial"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“The flavors felt so familiar and comforting. You can taste the care in every single dish.”</p><footer>Amara N. <span>·</span> Weekend guest</footer></blockquote>
+            <blockquote class="testimonial testimonial-featured"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“Beautiful food, generous portions, and the kind of welcome that makes you want to stay a little longer.”</p><footer>Daniel K. <span>·</span> Regular guest</footer></blockquote>
+            <blockquote class="testimonial"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>“Beryl's Kitchen is now my first recommendation whenever friends ask where to eat.”</p><footer>Grace T. <span>·</span> Local guide</footer></blockquote>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-intro">
+                <p class="section-kicker">Let's share a table</p>
+                <h2>Have a question? We'd love to hear from you.</h2>
+                <p>Planning a visit, arranging a celebration, or simply craving something delicious? Send us a note and our team will get back to you soon.</p>
+                <div class="contact-details">
+                    <a href="tel:+237600000000"><i class="fa-solid fa-phone" aria-hidden="true"></i><span>+237 600 000 000</span></a>
+                    <a href="mailto:hello@berylskitchen.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i><span>hello@berylskitchen.com</span></a>
+                    <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Bonapriso, Douala, Cameroon</span></p>
+                </div>
+            </div>
+            <form class="contact-form" action="#contact" method="post">
+                <div class="form-row">
+                    <label for="name">Your name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="btn" type="submit">Send message <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </form>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="site-footer-container">
+            <div class="footer-brand">
+                <img src="images/logo.png" alt="Beryl's Kitchen">
+                <p>Fresh flavor. Warm company. Always something good.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="mailto:hello@berylskitchen.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 Beryl's Kitchen.</div>
+    </footer>
+  </body>
+</html>
